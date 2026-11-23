@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 function About () {
     return(
         <>
+            <hr className = "divider"></hr>
             <AboutHeader />
             <AboutContainer />
             <Footer />

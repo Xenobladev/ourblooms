@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 function Gallery() {
     return(
         <>
+            <hr className = "divider"></hr>
             <GalleryHeader />
             <GalleryContainer />
             <WorkWithUs />
