@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 40px;
+}
+
+@media screen and (max-width: 799px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: block
+    }
+}
