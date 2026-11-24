@@ -6,7 +6,7 @@ function Footer () {
     return(
         <>
         <img src = {i1}
-        srcSet = {`${i1} 400w, ${i2} 800w, ${i3} 1200w`}
+        srcSet = {`${i3} 400w, ${i2} 800w, ${i1} 1200w`}
         sizes = "(max-width: 600px) 100vw, 50vw"
         alt = "flower" />
         </>

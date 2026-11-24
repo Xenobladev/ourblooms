@@ -21,8 +21,8 @@ function GalleryContainer() {
                 <div className = "gallery-items">
                     <div>
                         <p className = "caption2">DAWN BLOOM</p>
-                    <p className = "heading4">$55/bunch</p>
-                    <img src = {i1} alt = "flower arrangement" className = "gallery-image" />
+                        <p className = "heading4">$55/bunch</p>
+                        <img src = {i1} alt = "flower arrangement" className = "gallery-image" />
                     </div>
                     <div>
                         <p className = "caption2">SOLSTICE STEMS</p>

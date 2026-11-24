@@ -11,15 +11,14 @@ function Navbar (){
     }
     return (
         <nav className = "navbar">
-            <p>Our Blooms</p>
+            <p className = "display1">Jannat</p>
             <div className = "nav_items">
-            <button onClick = {toggle}>
-                {isMenuOpen ? <img src = {i2} alt = "Menu Options" /> : <img src = {i1} alt = "Close" /> }
-            </button>
             <NavLink to="/">Home</NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/gallery">Gallery</NavLink>
-            <NavLink to ="/menu">Menu</NavLink>
+            <button className = "mobileItem" onClick = {toggle}>
+                {isMenuOpen ? <img src = {i2} alt = "Menu Options" /> : <img src = {i1} alt = "Close" /> }
+            </button>
             </div>
         </nav>
     )

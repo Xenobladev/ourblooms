@@ -10,6 +10,10 @@
     gap: 40px;
 }
 
+.mobileItem{
+    display: none;
+}
+
 @media screen and (max-width: 799px) {
     .navbar {
         flex-direction: column;
@@ -17,5 +21,9 @@
 
     .hamburger {
         display: block
+    }
+
+    .mobileItem{
+        display: block;
     }
 }
